@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Mini File Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📁 Mini File Manager</h1>
+
+        <!-- Upload Section -->
+
+        <div class="upload-box">
+
+            <input type="file" id="fileInput">
+
+            <button onclick="uploadFile()">
+                Upload File
+            </button>
+
+        </div>
+
+
+        <!-- Message -->
+
+        <p id="message"></p>
+
+
+        <!-- File List -->
+
+        <h2>My Files</h2>
+
+        <div id="fileList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
